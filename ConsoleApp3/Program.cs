@@ -4,6 +4,10 @@ namespace ConsoleApp3
 {
     class Program
     {
+        /// <summary>
+        /// Al utilizar new solamente se cambia la implementacion del metodo en esa clase, no en la original ni en la herencia.
+        /// al utilizar virtual y override se cambia en el metodo que utiliza override y en la herencia
+        /// </summary>
 
         public class Ejemplo1
         {
